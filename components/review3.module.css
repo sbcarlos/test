@@ -1,0 +1,106 @@
+.vectorIcon {
+  height: 25px;
+  width: 26.3px;
+  position: relative;
+}
+.stars {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.allTheTeachers {
+  height: 193px;
+  flex: 1;
+  position: relative;
+  line-height: 30px;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.allTheTeachersInJamsBelieWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.line {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  background-color: var(--color-chocolate-100);
+}
+.akhileshBanerjee {
+  position: relative;
+  text-transform: capitalize;
+}
+.monthsAgo {
+  width: 341px;
+  height: 11px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 34px;
+  color: var(--color-darkslateblue-200);
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 132%;
+}
+.akhileshBanerjeeParent {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+  font-size: var(--font-size-3xl);
+}
+.googleIcon {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 0 !important;
+  right: 35px;
+  bottom: 34.5px;
+  z-index: 1;
+}
+.review4 {
+  width: 420px;
+  box-shadow: 0 4px 25px rgba(243, 116, 33, 0.1);
+  border-radius: var(--br-21xl) 0 var(--br-41xl) 0;
+  background-color: var(--white);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-21xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-6xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--dark-blue);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 450px) {
+  .stars {
+    justify-content: center;
+  }
+  .akhileshBanerjee {
+    font-size: var(--font-size-lg);
+  }
+  .review4 {
+    padding-top: var(--padding-7xl);
+    padding-bottom: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}

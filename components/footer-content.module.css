@@ -1,0 +1,316 @@
+.footerLogoIcon {
+  width: 214.4px;
+  height: 74px;
+  position: relative;
+}
+.loremIpsumDolor {
+  align-self: stretch;
+  height: 132px;
+  position: relative;
+  line-height: 30px;
+  font-weight: 500;
+  display: inline-block;
+}
+.logoContent {
+  width: 288px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+  font-size: var(--font-size-mid);
+}
+.links {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 58px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.linkText {
+  display: inline-block;
+  min-width: 65px;
+}
+.linkText,
+.linkText1,
+.linkText4 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.linkText4 {
+  height: 12px;
+  display: inline-block;
+  flex-shrink: 0;
+  min-width: 70px;
+}
+.footerLinksColumn,
+.navLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footerLinksColumn {
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--font-size-mid);
+}
+.navLinks {
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.contact {
+  margin: 0;
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+  font-size: inherit;
+  line-height: 58px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.contactContainer,
+.contactTitleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.contactTitleContainer {
+  align-self: stretch;
+}
+.contactContainer {
+  width: 132px;
+}
+.nwCentralDrive {
+  position: relative;
+  line-height: 26px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.socialIcon {
+  height: 28px;
+  width: 28px;
+  position: relative;
+}
+.separator {
+  height: 18px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 18px;
+  text-transform: capitalize;
+  font-weight: 600;
+  display: inline-block;
+}
+.socialLinks {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-7xl);
+}
+.infojamsportlandcom {
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+  font-weight: 500;
+}
+.socialIcon1,
+.vectorIcon {
+  height: 30px;
+  width: 15.8px;
+  position: relative;
+}
+.socialIcon1 {
+  height: 26px;
+  width: 28.8px;
+}
+.socialIcon2,
+.vectorIcon1 {
+  height: 30px;
+  width: 30px;
+  position: relative;
+}
+.socialIcon2 {
+  height: 25px;
+  width: 35.7px;
+}
+.socialIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+}
+.contactDetails,
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contactDetails {
+  align-self: stretch;
+  gap: var(--gap-7xl-3);
+  font-size: var(--font-size-lg);
+}
+.contactInfo {
+  width: 271px;
+  gap: var(--gap-31xl);
+}
+.image1Icon,
+.image2Icon,
+.image3Icon {
+  height: 110px;
+  width: 168.3px;
+  position: relative;
+  object-fit: cover;
+}
+.image2Icon,
+.image3Icon {
+  height: 115px;
+  width: 96.4px;
+}
+.image3Icon {
+  width: 142.3px;
+}
+.trustBadgeImages {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs) 0 0;
+  gap: var(--gap-16xl);
+}
+.button1 {
+  height: 13px;
+  position: relative;
+  line-height: 13px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 125px;
+}
+.button {
+  border-radius: var(--br-11xl);
+  border: 2px solid var(--white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-mid) var(--padding-8xl);
+}
+.button3 {
+  height: 13px;
+  position: relative;
+  line-height: 13px;
+  font-weight: 600;
+  display: inline-block;
+}
+.button2,
+.trustBadgeButtons {
+  display: flex;
+  flex-direction: row;
+}
+.button2 {
+  flex: 1;
+  border-radius: var(--br-11xl);
+  border: 2px solid var(--white);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-mid) var(--padding-8xl);
+  min-width: 145px;
+  min-height: 53px;
+}
+.trustBadgeButtons {
+  width: 422px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  max-width: 100%;
+}
+.footerContent,
+.trustBadgeContent,
+.trustBadges {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.trustBadgeContent {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  font-size: var(--font-size-lg);
+}
+.footerContent,
+.trustBadges {
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.footerContent {
+  align-self: stretch;
+  background-color: var(--dark-blue);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-91xl) var(--padding-221xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--white);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1850px) {
+  .footerContent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .footerContent {
+    padding-left: var(--padding-101xl);
+    padding-right: var(--padding-101xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .trustBadgeImages {
+    gap: var(--gap-mid);
+    flex-wrap: wrap;
+  }
+  .trustBadgeContent {
+    gap: var(--gap-xl);
+  }
+  .footerContent {
+    padding: var(--padding-52xl) var(--padding-41xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .logoContent {
+    gap: var(--gap-6xl);
+  }
+  .contact,
+  .links {
+    font-size: var(--font-size-3xl);
+    line-height: 46px;
+  }
+  .separator {
+    font-size: var(--font-size-2xl);
+    line-height: 24px;
+  }
+  .contactInfo {
+    gap: var(--gap-6xl);
+  }
+  .trustBadgeButtons {
+    flex-wrap: wrap;
+  }
+}

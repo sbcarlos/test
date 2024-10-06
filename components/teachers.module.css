@@ -1,0 +1,300 @@
+.loremIpsumDolor,
+.meetOurLeading {
+  align-self: stretch;
+  position: relative;
+}
+.meetOurLeading {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 50px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.loremIpsumDolor {
+  height: 15px;
+  font-size: var(--font-size-3xl);
+  line-height: 30px;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.teachersContent,
+.teachersDescription {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.teachersDescription {
+  width: 986px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.teachersContent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+}
+.profilePicIcon {
+  height: 174px;
+  width: 174px;
+  border-radius: var(--br-181xl);
+  object-fit: cover;
+}
+.box2Inner,
+.profilePicWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.profilePicWrapper {
+  border-radius: var(--br-181xl);
+  background-color: var(--white);
+  border: 6px solid var(--yellow);
+  padding: var(--padding-10xs);
+}
+.box2Inner {
+  align-self: stretch;
+  height: 180px;
+  padding: 0 var(--padding-12xl) 0 var(--padding-23xl);
+  box-sizing: border-box;
+}
+.mikaComeaux {
+  align-self: stretch;
+  height: 15px;
+  position: relative;
+  line-height: 32px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.parentCoordinatorAnd {
+  margin: 0;
+}
+.loremIpsumDolorContainer {
+  align-self: stretch;
+  height: 37px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 24px;
+  font-weight: 500;
+  color: var(--color-gray-100);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.mikaComeauxParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.loremIpsumDolor1 {
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 30px;
+  font-weight: 500;
+}
+.frameChild {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  background-color: var(--color-gray-200);
+}
+.vectorIcon,
+.vectorIcon1 {
+  height: 22px;
+  width: 23.3px;
+  position: relative;
+}
+.vectorIcon1 {
+  width: 22.1px;
+  height: 20px;
+}
+.vectorWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.vectorIcon2 {
+  width: 27.1px;
+  height: 19px;
+  position: relative;
+}
+.vectorContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.vectorIcon3,
+.vectorIcon4 {
+  height: 22px;
+  width: 22px;
+  position: relative;
+}
+.vectorIcon4 {
+  width: 22.1px;
+}
+.social {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-3xs) 0 0;
+  gap: var(--gap-xl);
+}
+.frameParent,
+.socialWrapper {
+  align-self: stretch;
+  display: flex;
+}
+.socialWrapper {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-15xl);
+}
+.frameParent {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xl-3);
+}
+.box2,
+.teacherProfiles {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.box2 {
+  flex: 1;
+  box-shadow: 0 4px 25px rgba(243, 116, 33, 0.1);
+  border-radius: var(--br-41xl) var(--br-3xs) var(--br-41xl) var(--br-3xs);
+  background-color: var(--orange);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) var(--padding-21xl) var(--padding-27xl-5);
+  box-sizing: border-box;
+  gap: var(--gap-19xl);
+  min-width: 285px;
+  color: var(--white);
+}
+.teacherProfiles {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-3xl);
+}
+.arrowLeftIcon,
+.arrowRightIcon {
+  width: 46px;
+  height: 22px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 396.5px;
+}
+.arrowRightIcon {
+  right: 149.4px;
+}
+.arrowLeftIcon {
+  left: 149px;
+  object-fit: contain;
+}
+.teachers,
+.teachersSection {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.teachersSection {
+  flex: 1;
+  background-color: var(--color-chocolate-200);
+  flex-direction: column;
+  padding: var(--padding-91xl) var(--padding-221xl);
+  position: relative;
+  gap: var(--gap-31xl);
+  z-index: 1;
+}
+.teachers {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-81xl);
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-23xl);
+  color: var(--dark-blue);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1400px) {
+  .teachersSection {
+    padding-left: var(--padding-101xl);
+    padding-right: var(--padding-101xl);
+    box-sizing: border-box;
+  }
+  .teachers {
+    padding-bottom: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .meetOurLeading {
+    font-size: var(--font-size-15xl);
+    line-height: 40px;
+  }
+  .box2 {
+    padding-top: var(--padding-7xl);
+    padding-bottom: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .teachersSection {
+    gap: var(--gap-6xl);
+    padding: var(--padding-52xl) var(--padding-41xl);
+    box-sizing: border-box;
+  }
+  .teachers {
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .meetOurLeading {
+    font-size: var(--font-size-6xl);
+    line-height: 30px;
+  }
+  .loremIpsumDolor {
+    font-size: var(--font-size-lg);
+    line-height: 24px;
+  }
+  .box2Inner {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .mikaComeaux {
+    font-size: var(--font-size-lg);
+    line-height: 26px;
+  }
+  .social {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .box2 {
+    gap: var(--gap-lgi);
+  }
+  .teachersSection {
+    padding-top: var(--padding-27xl);
+    padding-bottom: var(--padding-27xl);
+    box-sizing: border-box;
+  }
+}

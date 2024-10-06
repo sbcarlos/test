@@ -1,0 +1,112 @@
+.vectorIcon {
+  height: 25px;
+  width: 26.3px;
+  position: relative;
+}
+.stars {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.weAreThrilled {
+  height: 193px;
+  flex: 1;
+  position: relative;
+  line-height: 30px;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.weAreThrilledWithJamsOurWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.line {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  background-color: var(--color-chocolate-100);
+}
+.erinHufstetler {
+  position: relative;
+  text-transform: capitalize;
+}
+.monthsAgo {
+  height: 11px;
+  flex: 1;
+  position: relative;
+  line-height: 11px;
+  display: inline-block;
+  max-width: 100%;
+}
+.googleIcon {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  margin: 0 !important;
+  top: -23.5px;
+  right: -5px;
+  z-index: 1;
+}
+.erinHufstetlerParent,
+.monthsAgoParent,
+.review3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.monthsAgoParent {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslateblue-200);
+}
+.erinHufstetlerParent,
+.review3 {
+  flex-direction: column;
+}
+.erinHufstetlerParent {
+  align-self: stretch;
+  gap: var(--gap-12xs);
+  font-size: var(--font-size-3xl);
+}
+.review3 {
+  width: 420px;
+  box-shadow: 0 4px 25px rgba(243, 116, 33, 0.1);
+  border-radius: var(--br-21xl) 0 var(--br-41xl) 0;
+  background-color: var(--white);
+  flex-shrink: 0;
+  padding: var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-6xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--dark-blue);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 450px) {
+  .stars {
+    justify-content: center;
+  }
+  .erinHufstetler {
+    font-size: var(--font-size-lg);
+  }
+  .review3 {
+    padding-top: var(--padding-7xl);
+    padding-bottom: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}

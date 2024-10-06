@@ -1,0 +1,156 @@
+.profilePicIcon {
+  height: 180px;
+  width: 180px;
+  border-radius: var(--br-181xl);
+  object-fit: cover;
+}
+.profileElements {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-23xl);
+}
+.loremIpsumDolor,
+.miwakoSakabayashi {
+  align-self: stretch;
+  height: 15px;
+  position: relative;
+  line-height: 32px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.loremIpsumDolor {
+  height: 13px;
+  font-size: var(--font-size-lg);
+  line-height: 24px;
+  font-weight: 500;
+  color: var(--color-darkslateblue-100);
+}
+.profileContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.loremIpsumDolor1 {
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 30px;
+  font-weight: 500;
+}
+.profileDetailsChild {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  background-color: var(--color-chocolate-100);
+}
+.socialIcons {
+  height: 22px;
+  width: 23.3px;
+  position: relative;
+}
+.socialElementsIcon {
+  width: 22.1px;
+  height: 20px;
+  position: relative;
+}
+.socialBackgrounds {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.socialElementsIcon1 {
+  width: 27.1px;
+  height: 19px;
+  position: relative;
+}
+.socialBackgrounds1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.socialIcons1,
+.socialIcons2 {
+  height: 22px;
+  width: 22px;
+  position: relative;
+}
+.socialIcons2 {
+  width: 22.1px;
+}
+.social,
+.socialLinks {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.social {
+  flex: 1;
+  justify-content: center;
+  padding: var(--padding-3xs) 0 0;
+  gap: var(--gap-xl);
+}
+.socialLinks {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-15xl);
+}
+.box1,
+.profileDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.profileDetails {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: var(--gap-5xl-3);
+}
+.box1 {
+  flex: 1;
+  box-shadow: 0 4px 25px rgba(243, 116, 33, 0.1);
+  border-radius: var(--br-41xl) var(--br-3xs) var(--br-41xl) var(--br-3xs);
+  background-color: var(--white);
+  align-items: flex-start;
+  padding: var(--padding-21xl) var(--padding-21xl) var(--padding-21xl-5);
+  box-sizing: border-box;
+  gap: var(--gap-19xl);
+  min-width: 285px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  color: var(--dark-blue);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 925px) {
+  .box1 {
+    padding-top: var(--padding-7xl);
+    padding-bottom: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .profileElements {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .miwakoSakabayashi {
+    font-size: var(--font-size-lg);
+    line-height: 26px;
+  }
+  .social {
+    flex-wrap: wrap;
+  }
+  .box1 {
+    gap: var(--gap-lgi);
+  }
+}

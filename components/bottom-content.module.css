@@ -1,0 +1,165 @@
+.howAStudents {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 50px;
+  font-weight: 700;
+  font-family: inherit;
+  white-space: pre-wrap;
+}
+.jamsProgram,
+.the {
+  font-family: var(--font-montserrat);
+}
+.the {
+  font-weight: 500;
+  color: var(--dark-blue);
+}
+.jamsProgram {
+  color: var(--orange);
+}
+.isAContinuous {
+  font-weight: 500;
+}
+.theJamsProgramIsAContinuo {
+  margin: 0;
+}
+.blankLine {
+  margin: 0;
+  font-weight: 500;
+}
+.loremIpsumDolorContainer {
+  align-self: stretch;
+  height: 429px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 32px;
+  display: inline-block;
+}
+.content {
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xl);
+  max-width: 100%;
+}
+.calendarGraphicIcon,
+.vectorIcon {
+  position: absolute;
+  margin: 0 !important;
+  object-fit: contain;
+}
+.vectorIcon {
+  width: 149px;
+  top: 0;
+  left: 146px;
+  height: 74px;
+  display: none;
+  z-index: 1;
+}
+.calendarGraphicIcon {
+  height: 132.2px;
+  width: 131.1px;
+  top: -45.4px;
+  left: 155.6px;
+}
+.bottomContent,
+.howAStudentsSection,
+.section {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.section {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-21xl);
+  min-width: 598px;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+}
+.bottomContent,
+.howAStudentsSection {
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.howAStudentsSection {
+  flex: 1;
+  background-color: var(--color-chocolate-200);
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-81xl) var(--padding-240xl) var(--padding-81xl)
+    var(--padding-221xl);
+  gap: var(--gap-61xl);
+}
+.bottomContent {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-81xl);
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-23xl);
+  color: var(--dark-blue);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1850px) {
+  .content {
+    flex: 1;
+  }
+  .howAStudentsSection {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .content,
+  .section {
+    min-width: 100%;
+  }
+  .section {
+    flex-wrap: wrap;
+  }
+  .howAStudentsSection {
+    gap: var(--gap-21xl);
+    padding-left: var(--padding-101xl);
+    padding-right: var(--padding-110xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .howAStudents {
+    font-size: var(--font-size-15xl);
+    line-height: 40px;
+  }
+  .howAStudentsSection {
+    gap: var(--gap-xl);
+    padding: var(--padding-46xl) var(--padding-45xl) var(--padding-46xl)
+      var(--padding-41xl);
+    box-sizing: border-box;
+  }
+  .bottomContent {
+    padding-bottom: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .howAStudents {
+    font-size: var(--font-size-6xl);
+    line-height: 30px;
+  }
+  .section {
+    gap: var(--gap-xl);
+  }
+  .howAStudentsSection {
+    padding-top: var(--padding-23xl);
+  }
+  .bottomContent,
+  .howAStudentsSection {
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+}

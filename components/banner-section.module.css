@@ -1,0 +1,113 @@
+.abacusClasses {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  line-height: 64px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.loremIpsumDolor {
+  height: 14px;
+  position: relative;
+  line-height: 14px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 64px;
+}
+.frameChild {
+  height: 8.3px;
+  width: 5px;
+  position: relative;
+  object-fit: contain;
+}
+.loremIpsumDolor1 {
+  height: 14px;
+  position: relative;
+  line-height: 14px;
+  font-weight: 500;
+  display: inline-block;
+}
+.loremIpsumDolorSitAmetCoParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-949xl) 0 0;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-xl);
+}
+.updated {
+  width: 215px;
+  height: 213px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -15px;
+  left: 0;
+}
+.bannerSection {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-181xl) var(--padding-221xl);
+  position: relative;
+  gap: var(--gap-3xs);
+  background-image: url(/banner-section@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-37xl);
+  color: var(--white);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1850px) {
+  .loremIpsumDolorSitAmetCoParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .bannerSection,
+  .loremIpsumDolorSitAmetCoParent {
+    padding-right: var(--padding-465xl);
+    box-sizing: border-box;
+  }
+  .bannerSection {
+    padding-left: var(--padding-101xl);
+    padding-right: var(--padding-101xl);
+  }
+}
+@media screen and (max-width: 925px) {
+  .abacusClasses {
+    font-size: var(--font-size-26xl);
+    line-height: 51px;
+  }
+  .loremIpsumDolorSitAmetCoParent {
+    padding-right: var(--padding-223xl);
+    box-sizing: border-box;
+  }
+  .bannerSection {
+    padding: var(--padding-111xl) var(--padding-41xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .abacusClasses {
+    font-size: var(--font-size-15xl);
+    line-height: 38px;
+  }
+  .loremIpsumDolor,
+  .loremIpsumDolor1 {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+  .loremIpsumDolorSitAmetCoParent {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

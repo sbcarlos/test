@@ -1,0 +1,127 @@
+.logoIcon {
+  height: 70px;
+  width: 276.9px;
+  position: relative;
+}
+.linkText {
+  height: 12px;
+  position: relative;
+  text-decoration: underline;
+  letter-spacing: -0.01em;
+  line-height: 12px;
+  display: inline-block;
+  color: var(--orange);
+}
+.linkText1 {
+  min-width: 83px;
+}
+.linkText1,
+.linkText2,
+.linkText3 {
+  height: 12px;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 12px;
+  display: inline-block;
+}
+.linkText3 {
+  min-width: 92px;
+}
+.navLinksChild {
+  height: 6px;
+  width: 10px;
+  position: absolute;
+  margin: 0 !important;
+  top: 39px;
+  left: 685.1px;
+}
+.navLinks {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-xl) var(--padding-168xl);
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.button1 {
+  height: 14px;
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+}
+.fileBackgroundIcon {
+  height: 13px;
+  width: 15.1px;
+  position: relative;
+}
+.div {
+  border-radius: var(--br-xl);
+  background-color: var(--yellow);
+  justify-content: center;
+  padding: var(--padding-xs-5) var(--padding-3xs);
+  box-sizing: border-box;
+  width: 36px;
+  height: 36px;
+}
+.button,
+.div,
+.topSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.button {
+  border-radius: var(--br-11xl);
+  background-color: var(--orange);
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-xs) var(--padding-xs)
+    var(--padding-10xl);
+  gap: var(--gap-xl);
+  font-size: var(--font-size-xl);
+  color: var(--white);
+}
+.topSection {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-221xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--dark-blue);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1400px) {
+  .navLinks {
+    display: none;
+  }
+  .topSection {
+    padding-left: var(--padding-101xl);
+    padding-right: var(--padding-101xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .navLinks,
+  .topSection {
+    padding-left: var(--padding-74xl);
+    padding-right: var(--padding-74xl);
+    box-sizing: border-box;
+  }
+  .topSection {
+    padding-left: var(--padding-41xl);
+    padding-right: var(--padding-41xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .navLinks {
+    padding-left: var(--padding-27xl);
+    padding-right: var(--padding-27xl);
+    box-sizing: border-box;
+  }
+}

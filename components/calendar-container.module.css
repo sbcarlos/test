@@ -1,0 +1,105 @@
+.jamsAcademicCalendar,
+.layer1Icon {
+  align-self: stretch;
+  position: relative;
+  flex-shrink: 0;
+}
+.jamsAcademicCalendar {
+  height: 17px;
+  letter-spacing: -0.02em;
+  line-height: 54px;
+  display: inline-block;
+}
+.layer1Icon {
+  height: 268.7px;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.jamsAcademicCalendarSection {
+  align-self: stretch;
+  box-shadow: 0 4px 25px rgba(243, 116, 33, 0.1);
+  border-radius: var(--br-41xl) 0 var(--br-41xl) 0;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-31xl) var(--padding-21xl);
+  gap: var(--gap-11xl);
+  flex-shrink: 0;
+}
+.button1 {
+  height: 14px;
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+}
+.jamsCalendarButtonIcon {
+  height: 13px;
+  width: 15.1px;
+  position: relative;
+}
+.jamsCalendarButtonIconWrapper {
+  border-radius: var(--br-xl);
+  background-color: var(--yellow);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs-5) var(--padding-3xs);
+  box-sizing: border-box;
+  width: 36px;
+  height: 36px;
+}
+.button,
+.calendarContainer {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.button {
+  border-radius: var(--br-11xl);
+  background-color: var(--orange);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-xs) var(--padding-xs)
+    var(--padding-10xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--white);
+}
+.calendarContainer {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  min-width: 286px;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--dark-blue);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 925px) {
+  .button {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .jamsAcademicCalendar {
+    font-size: var(--font-size-lgi);
+    line-height: 43px;
+  }
+  .jamsAcademicCalendarSection {
+    gap: var(--gap-mini);
+    padding-top: var(--padding-13xl);
+    padding-bottom: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+  .button1 {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+}
