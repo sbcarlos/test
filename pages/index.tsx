@@ -31,7 +31,7 @@ const ClassesPage: NextPage = () => {
       <section className={styles.reviews}>
         <div className={styles.reviewsContainer}>
           <div className={styles.reviewsContent}>
-            <h1 className={styles.theJamsReviews}>The JAMS Reviews</h1>
+            <h1 className={styles.theJamsReviews}>JAMS</h1>
             <div className={styles.loremIpsumDolor}>
               You’ve heard that old saying… hard-work pays back. Well, it’s also
               proven to be truth for our JAMS Abacus students.
